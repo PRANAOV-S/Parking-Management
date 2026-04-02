@@ -1,0 +1,156 @@
+.footer-container {
+    background-color: #dbeafe;
+    padding: 60px 0 20px;
+    color: #1e3a8a;
+    margin-top: auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-brand-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.footer-logo-img {
+    height: 60px;
+    /* Larger logo for footer */
+    width: auto;
+}
+
+.contact-heading {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #334155;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    color: #334155;
+}
+
+.contact-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    color: #004de6;
+}
+
+.footer-links-group {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-column h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #334155;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #334155;
+    transition: color 0.2s;
+    font-size: 0.95rem;
+}
+
+.footer-column ul li a:hover {
+    color: #004de6;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #cbd5e1;
+    margin: 0 0 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.scroll-top-btn {
+    position: absolute;
+    left: 0;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #1e3a8a;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s;
+}
+
+.scroll-top-btn:hover {
+    transform: translateY(-3px);
+}
+
+.copyright-text {
+    font-size: 0.9rem;
+    color: #64748b;
+    text-align: center;
+}
+
+.copyright-text a {
+    color: #004de6;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-links-group {
+        width: 100%;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .scroll-top-btn {
+        position: static;
+    }
+}

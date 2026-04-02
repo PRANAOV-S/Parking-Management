@@ -1,0 +1,169 @@
+.slots-container {
+    padding: 0 10px;
+}
+
+.slots-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.slots-header h2 {
+    font-size: 1.5rem;
+    color: #0f172a;
+}
+
+.btn-add-slot {
+    background: #004de6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-add-slot:hover {
+    background: #003bb3;
+}
+
+/* Filters */
+.slots-filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 16px;
+}
+
+.filter-btn {
+    background: none;
+    border: 1px solid #e2e8f0;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.filter-btn.active {
+    background: #0f172a;
+    color: white;
+    border-color: #0f172a;
+}
+
+.filter-btn:hover:not(.active) {
+    background: #f1f5f9;
+}
+
+/* Grid */
+.slots-grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.slot-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.slot-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.slot-card.occupied {
+    background: #fff1f2;
+    border-color: #fecdd3;
+}
+
+.slot-card.available {
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+}
+
+.slot-card.maintenance {
+    background: #fff7ed;
+    border-color: #fed7aa;
+}
+
+.slot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.slot-id {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #0f172a;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.status-dot.success {
+    background: #22c55e;
+}
+
+.status-dot.danger {
+    background: #ef4444;
+}
+
+.status-dot.warning {
+    background: #f97316;
+}
+
+.slot-body {
+    margin-bottom: 16px;
+}
+
+.slot-type {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 4px;
+}
+
+.slot-floor {
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+.slot-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 12px;
+}
+
+.current-status {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #475569;
+}
+
+.btn-icon {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.btn-icon:hover {
+    color: #0f172a;
+}

@@ -1,0 +1,110 @@
+.history-container {
+    max-width: 800px;
+    margin: 120px auto 40px;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.history-title {
+    color: #0f172a;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.history-subtitle {
+    color: #64748b;
+    margin-bottom: 32px;
+}
+
+.search-form {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.search-input:focus {
+    border-color: #004de6;
+    box-shadow: 0 0 0 3px rgba(0, 77, 230, 0.1);
+}
+
+.search-btn {
+    min-width: 120px;
+}
+
+.results-area {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.no-results {
+    color: #64748b;
+    font-style: italic;
+    padding: 20px;
+}
+
+.booking-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.booking-card:hover {
+    transform: translateY(-2px);
+    border-color: #cbd5e1;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.office-tag {
+    background: #e0f2fe;
+    color: #0284c7;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.date-tag {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.time-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #334155;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.arrow {
+    color: #94a3b8;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    color: #64748b;
+    font-size: 0.9rem;
+}

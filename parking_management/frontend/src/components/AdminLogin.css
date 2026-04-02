@@ -1,0 +1,29 @@
+.admin-login-container {
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.admin-title {
+    margin-bottom: 24px;
+    color: #1e293b;
+}
+
+.admin-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.error-msg {
+    color: #ef4444;
+    margin-bottom: 16px;
+    font-size: 0.9rem;
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: 10px;
+}
